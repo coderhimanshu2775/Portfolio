@@ -13,13 +13,18 @@ const Avatar: React.FC<AvatarProps> = ({ size = 'md', className = '' }) => {
     lg: 'w-40 h-40'
   };
 
+  // Use GitHub Pages URL in production, local path in development
+  const imageUrl = import.meta.env.PROD 
+    ? '/Portfolio/profile-pic.jpg'
+    : '/profile-pic.jpg';
+
   return (
     <div className={`relative ${className}`}>
       <motion.div
         className={`${sizeClasses[size]} mx-auto rounded-full overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.4)]`}
       >
         <img
-          src={`${import.meta.env.BASE_URL}profile-pic.jpg`}
+          src={imageUrl}
           alt="Profile"
           className="w-full h-full object-cover"
         />
