@@ -19,7 +19,7 @@ const Avatar: React.FC<AvatarProps> = ({ size = 'md', className = '' }) => {
         className={`${sizeClasses[size]} mx-auto rounded-full overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.4)]`}
       >
         <img
-          src="/profile-pic.jpg"
+          src={`${import.meta.env.BASE_URL}profile-pic.jpg`}
           alt="Profile"
           className="w-full h-full object-cover"
         />
