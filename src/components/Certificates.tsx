@@ -11,13 +11,13 @@ const Certificates = () => {
   const certificates = [
     {
       title: 'Software Testing',
-      link: 'https://drive.google.com/file/d/1sWaOCnM1ep_-oqN_NGVUK9lH4sHdgEI6/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/1MQ6_z_7VqGoc5cI23Z6QIfxNudwOLeqx/view?usp=sharing',
       description: 'Successfully completed the Software Testing course offered by NPTEL (Jul–Oct 2024), earning valuable insights into software quality assurance, testing methodologies, and debugging techniques. This course has strengthened my understanding of manual and automated testing, black-box & white-box testing, and industry best practices, enhancing my skills in ensuring software reliability and performance.',
       icon: TestTube2,
     },
     {
       title: 'JavaScript for Web Development',
-      link: 'https://drive.google.com/file/d/1jCYwRd_i4gi00vh6iOkDXy7ezcYISJPI/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/1TjQZTcS-pyBDhLPgfQwDNcjgeqRsJltW/view?usp=sharing',
       description: 'Completed comprehensive JavaScript training, mastering modern web development techniques, DOM manipulation, and asynchronous programming. Gained expertise in building interactive web applications and implementing best practices in JavaScript development.',
       icon: Code2,
     },
