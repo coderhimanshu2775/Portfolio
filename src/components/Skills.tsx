@@ -64,7 +64,7 @@ const Skills = () => {
                     >
                       <div
                         className="h-full bg-blue-600 rounded-full"
-                        style={{ width: `${85 - skillIndex * 10}%` }}
+                        style={{ width: '100%' }}
                       />
                     </motion.div>
                   </div>
